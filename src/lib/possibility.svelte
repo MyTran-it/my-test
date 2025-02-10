@@ -7,6 +7,12 @@
         team1Possibilities = [],
         team2Possibilities = [],
         onReset
+    } : {
+        teamName1: string,
+        teamName2: string,
+        team1Possibilities: Array<Array<string>>,
+        team2Possibilities: Array<Array<string>>,
+        onReset: Function
     } = $props();
 
 </script>

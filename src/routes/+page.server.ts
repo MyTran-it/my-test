@@ -25,8 +25,8 @@ function getPossibility(score: number) {
     pat: { text: "PAT", value: 1 },
   };
 
-  let result = [];
-  let text = [];
+  let result: Array<Array<string>> = [];
+  let text: Array<string> = [];
 
   if (score === 0) return;
 

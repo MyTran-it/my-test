@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import Possibility  from "$lib/possibility.svelte";
     import Score from "$lib/score.svelte";
     import Button from "$lib/button.svelte";
@@ -9,11 +9,10 @@
     
     const LIMIT_API = 40;
 
-    let score1 = $state(6)
-    let score2 = $state(3)
+    let score1: number = $state(6)
+    let score2: number = $state(3)
 
-    /** @param {SubmitEvent & { currentTarget: EventTarget & HTMLFormElement}} event */
-    async function submit(event) {
+    async function submit(event: SubmitEvent & { currentTarget: EventTarget & HTMLFormElement}) {
         event.preventDefault()
         
         if(score1 > LIMIT_API || score2 > LIMIT_API) {
