@@ -17,6 +17,4 @@ C'est pas très optimisé en performance, la limit de score chez mon pc était 4
 
 J'ai rencontré une problème avec le "Dispatch event" maintenant c'est déprécié et remplacé par "$host()" avec une utilisation différent (J'ai essayé de l'utiliser dans "possibility.svelte" sur le button undo/reset). Le problème est pareil que trouvé cet issue (le style de button n'est pas appliqué __ https://github.com/sveltejs/svelte/issues/15213). J'arrive pas à le résoudre donc j'ai passé simplement une fonction dans "$props()", et ça a l'aire marché sans problème. 
 
-# Notes final
-Depuis la fin de mon contrat, j'ai constaté que le marché propose des offres sur React et Vue, rarement Svelte. Donc j'ai passé du temps pour me former sur les autres technologies. 
 
